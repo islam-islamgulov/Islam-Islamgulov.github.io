@@ -1,0 +1,474 @@
+html{
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+*, p, h1, h2, h4, ul, li, div, *:after, *:befor{
+	box-sizing: inherit;
+}
+
+
+.container{
+	display: flex;
+	max-width: 960px;
+	margin: 0 auto;
+	box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.1);
+}
+/*--------------------PROFILE--------------------*/
+.profile{
+	margin-bottom: 20px;
+	flex-basis: 35%;
+	background-color: #39383a;
+	color: #ababab;
+}
+.profile-photo{
+	height: 300px;
+	background-image: url(https://sun9-36.userapi.com/c858524/v858524741/124af1/d_8c4uiOB2Q.jpg);
+	background-size: cover;
+	background-position: top;
+	background-repeat: no-repeat;
+}
+.profile-info{
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 30px;
+	padding-bottom: 70px;
+}
+.profile-info h2{
+	text-transform: none;
+	font-size: 16px;
+}
+.heading{
+	margin: 0;
+	padding-bottom: 7px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.heading-lite{
+	color: #fff;
+	font-weight: 500;
+}
+.author{
+	position: relative;
+}
+.author h2::before{
+	content: '”';
+	font-size: 20px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 1px;
+	align-items: center;
+}
+.author h2::after{
+	content: '“';
+	font-size: 20px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 1px;
+}
+.author-verbs{
+	position: absolute;
+	right: 0;
+	font-style: italic;
+	font-size: 18px;
+	color: #6e45e2;
+}
+.profile-text{
+	font-size: 16px;
+	line-height: 24px;
+	margin-top: 30px;
+	padding-top: 15px;
+	border-top: 2px #5a5a5a dashed;
+}
+.contacts-item{
+	border-bottom: 2px #5a5a5a dashed;
+	padding-bottom: 24px;
+	padding-top: 24px;
+}
+.contacts-title{
+	color: #fff;
+	margin-bottom: 13px;
+	font-size: 16px;
+	font-weight: 400;
+}
+.contacts-text{
+	text-decoration: none;
+	color: #ababab;
+	padding-left: 27px;
+	line-height: 24px;
+}
+address{
+	font-style: normal;
+}
+.fas{
+	margin-right: 7px;
+}
+/*/.--------------------PROFILE--------------------*/
+
+/*--------------------RESUME--------------------*/
+.resume{
+	padding: 0 30px;
+	flex-basis: 60%;
+	position: relative;
+}
+.resume::after{
+	content: '';
+    width: 5px;
+    height: 80px;
+    background-color: #6e45e2;
+    position: absolute;
+    left: 30px;
+    top: 0;
+}
+.resume::before{
+	content: '';
+    width: 80px;
+    height: 5px;
+    background-color: #6e45e2;
+    position: absolute;
+    left: 30px;
+    top: 0;
+}.bottom-after::after{
+	content: '';
+    width: 5px;
+    height: 80px;
+    background-color: #6e45e2;
+    position: absolute;
+    right: 30px;
+    bottom: 0;
+}
+.bottom-after::before{
+	content: '';
+    width: 80px;
+    height: 5px;
+    background-color: #6e45e2;
+    position: absolute;
+    right: 30px;
+    bottom: 0;
+}
+.resume-wrap{
+	padding: 36px 36px;
+	border: 1px solid rgba(168, 168, 168, 0.44);
+}
+.logo{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 28px;
+}
+.logo-img{
+	width: 90px; 
+	height: 90px;
+	border: 1px solid #39383a;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.logo-lines{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin-left: 17px;
+	margin-right: 17px;
+}
+.logo-line{
+	width: 43px;
+	height: 2px;
+	background-color: #39383a;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.logo-lines_left .logo-line:nth-child(2){
+	margin-right: 20px;
+	width: 55px;
+}
+.logo-lines_right .logo-line:nth-child(2){
+	margin-left: 20px;
+	width: 55px;
+}
+.about{
+	text-align: center;
+	border-bottom: 1px solid #6e45e2;
+	padding-bottom: 7px;
+	margin-bottom: 40px;
+}
+.name{
+	font-size: 16px;
+	text-transform: uppercase;
+	letter-spacing: 10.75px;
+	margin-bottom: 12px;
+}
+.position{
+	display: inline-block;
+	font-size: 11px;
+	text-transform: uppercase;
+	color: #000;
+	margin-bottom: 20px;
+}
+.about-address{
+	font-size: 13px;
+	margin-bottom: 15px;
+}
+.about-contacts{
+	font-size: 14px;
+}
+.about-contacts_link{
+	text-decoration: none;
+	color: #777777;
+}
+/*/.--------------------RESUME--------------------*/
+/*--------------------RESUME_EDUCATION--------------------*/
+.heading-dark{
+	font-size: 16px;
+	font-weight: 500;
+	border-bottom: 1px solid #6e45e2;
+	margin-bottom: 37px;
+}
+.list, 
+.add-info__list{
+	list-style: none;
+}
+.list-item{
+	position: relative;
+	padding-left: 40px;
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+	border-bottom: 2px dashed #ececec;
+}
+.list-item:before{
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 3px;
+	width: 9px;
+	height: 9px;
+	border-radius: 50%;
+	background-color: #000;
+}
+.list-item__data{
+	text-transform: uppercase;
+	font-size: 14px;
+}
+.list-item span::after{
+	content: '';
+	width: 20px;
+	height: 2px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 10px;
+	background-color: #6e45e2;
+}.list-item span::before{
+	content: '';
+	width: 20px;
+	height: 2px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 10px;
+	background-color: #6e45e2;
+	align-items: center;
+}
+.list-item__text{
+	font-size: 14px;
+	color: #777;
+}
+.list-item_none-border{
+	border: none;
+}
+.add-info {
+	margin-bottom: 50px;
+}
+.add-info li{
+	padding-right: 40px;
+	padding-bottom: 0;
+}
+/*/.--------------------RESUME_EDUCATION--------------------*/
+
+/*--------------------RESUME_SKILLS--------------------*/
+.heading_skills{
+	margin-bottom: 20px;
+}
+/*.skills-list{
+	list-style: none;
+	padding-left: 0;
+}
+.skills-list__item{
+	margin-bottom: 30px;
+	text-transform: uppercase;
+	font-size: 11px;
+	display: flex;
+	justify-content: space-between;
+}
+.level{
+	width: 70%;
+	height: 8px;
+	border: 1px solid #39383a;
+	position: relative;
+}
+.level:before{
+	content: '';
+	position: absolute;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background-color: #6e45e2;
+}
+.level-80:before{
+	width: 80%;
+}
+.level-90:before{
+	width: 90%;
+}
+.level-60:before{
+	width: 60%;
+}.level-40:before{
+	width: 40%;
+}*/
+
+.container-skills{
+    width: 100%;
+ }
+ .skills__item{
+	box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.1);
+	border: 1px #5a5a5a solid;
+	padding: 0 5px 15px 5px;
+}
+.skills__items{
+    text-align: left; 
+    padding-right: 20px; 
+    line-height: 24px;
+    color: #000; 
+}
+.skill-text{
+	margin-bottom: 7px;
+}
+.skill-html{
+	text-align: right;
+	width: 90%; 
+	background-color: #EE6535;
+}
+.skill-css{
+	text-align: right;
+	width: 80%; 
+	background-color: #1E71BB;
+} 
+.skill-js{
+	text-align: right;
+	width: 30%; 
+	background-color: #F7E018;
+}
+.skill-php{
+	text-align: right;
+	width: 40%; 
+	background-color: #4F5B93;
+}
+/*/.--------------------RESUME_SKILLS--------------------*/
+
+/*--------------------@MEDIASCREEN--------------------*/
+@media(max-width: 1024px){
+	.container{
+		width: 90%;
+	}
+}
+@media(max-width: 992px){
+	.container{
+		flex-direction: column;
+		width: 70%;
+	}
+	.profile{
+		position: relative;
+	}
+	.profile:before{
+		content: '';
+		width: 100%;
+		height: 150px;
+		display: block;
+		background-color: #4F5B93;
+		position: absolute;
+	}
+	.profile-photo{
+		width: 250px;
+		height: 250px;
+		border: 3px solid #fff;
+		margin: 10px auto;
+		margin-top: 40px;
+		position: relative;
+		z-index: 9;
+	}
+}
+@media(max-width: 768px){
+	.container{
+		width: 80%;
+	}
+	.resume-wrap{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+@media(max-width: 710px){
+	.about-contacts_link{
+		display: block;
+		line-height: 1.4
+	}
+}
+@media(max-width: 567px){
+	.logo-img{
+		width: 70px;
+		height: 70px;
+	}
+	.logo-lines{
+		margin-left: 8px;
+		margin-right: 8px;
+	}
+	.list{
+		padding-left: 20px;
+	}
+}
+@media(max-width: 480px){
+	.logo{
+		display: none;
+	}
+	.container{
+		min-width: 320px;
+	}
+	.list{
+		padding-left: 10px;
+	}
+	.list-item__data{
+		text-align: center;
+		display: block;
+	}
+	.name{
+		letter-spacing: normal;
+	}
+	.heading{
+		text-align: center;
+	}
+	.author h2{
+		text-align: left;
+	}
+}
+@media(max-width: 442px){
+	.list-item__data{
+		font-size: 13px;
+	}
+	.list-item__text{
+		font-size: 13px;
+		line-height: 1.4;
+	}
+	.heading-dark{
+		margin-bottom: 17px;
+	}
+	.list-item{
+		margin-bottom: 0;
+		padding-left: 20px;
+	}
+	.list-item:before{
+		width: 6px;
+    	height: 6px;
+	}
+	.list-item span::after{
+	width: 15px;
+}.list-item span::before{
+	width: 15px;
+	}
+}
