@@ -1,0 +1,187 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Montserrat, san-serif;
+	box-sizing: border-box;
+}
+body{
+
+	margin: 0;
+	padding: 0;
+}
+header {
+	background: url(../img/first-bg1.jpg) no-repeat center top / cover;
+	height: 100vh;
+	max-width: 100%;
+}
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+.heading{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+nav{
+	padding-top: 15px;
+}
+.logo-d{
+	color: #fff;
+	font-weight: 500;
+	font-size: 50px;
+}
+.logo .logo-v{
+	position: relative;
+	color: red;
+	font-weight: 500;
+	font-size: 50px;
+	top: 8px;
+	left: -30px;
+}
+.nav{
+	display: flex;
+	justify-content:center;
+	align-items: center;
+}
+
+.menu{
+	margin-left: 100px;
+	display: block;
+	display: flex;
+}
+.menu li{
+	margin-right: 60px;
+	list-style-type: none;
+}
+.menu a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 16px;
+	cursor: pointer;
+	transition: .4s ease;
+}
+.menu li a:hover{
+	color:red;
+	border-radius: 4px;
+}
+.header-contacts{
+	display: flex;
+	flex-direction: column;
+}
+.header-contacts a span{
+	border-bottom: 1px solid #fff;
+}
+.phone{
+	color: #fff;
+	font-size: 14px;
+	text-decoration: none;
+	letter-spacing: .1em;
+}
+.callback{
+	color: #fff;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.tittle h1{
+	font-size: 36px;
+	color: #fff;
+	display: block;
+	padding-top: 230px;
+	line-height: 1.5em;
+	font-weight: 500;
+}
+
+.tittle span{
+	color: red;
+	border-bottom: 3px solid red;
+}
+
+/*УСЛУГИ И ЦЕНЫ*/
+.servises{
+	padding-top: 70px;
+	padding-bottom: 70px;
+
+}
+.servises h1{
+	padding: 30px;
+	font-size: 40px;
+	text-align: center;
+}
+
+.name-servise{
+	display: flex;
+	justify-content: space-around;
+	padding: 15px;
+}
+.name-servise__left p{
+	margin: 15px 0;
+	font-size: 22px;
+	border-bottom: 2px solid red;
+}
+.name-servise__right p{
+	margin: 15px 0;
+	font-size: 22px;
+	border-bottom: 2px solid red;
+}
+
+/*ФОТОГАЛЕРЕЯ*/
+.galary{
+	background-color: #1A1A1A;
+	padding-bottom: 70px;
+}
+
+.photogalary h1{
+	padding: 60px;
+	font-size: 40px;
+	text-align: center;
+	color: #fff;
+}
+
+.photos{
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	grid-column-gap: 0;
+	grid-row-gap: 25px;
+}
+/*ОТЗЫВЫ КИЛЕНТОВ*/
+
+/*.mian__testimonials{
+	width: 100%;
+	background-color: #1A1A1A;
+	text-align: center;
+	color: #fff;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.mian__testimonials h1{
+	top: 100px;
+	margin-bottom: 70px;
+}
+
+.testimonial p{
+padding-top: 20px;
+	text-transform: uppercase;
+}
+*/
+
+/*FOOTER*/
+footer{
+	background-color: #222222;
+	width: 100%;
+	height: auto;
+	color: #fff;
+	font-size: 24px;
+	margin-top: 5px;
+}
+
+.footer-container{
+	width: 90%;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 30% 35% 30%;
+}
