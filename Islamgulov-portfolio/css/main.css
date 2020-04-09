@@ -1441,8 +1441,9 @@ header .logo a {
 	display: flex;
 }
 .intro-info img {
-	height: 30%;
-	width: 30%;
+	height: 40%;
+    	width: 40%;
+    	border-radius: 30px;
 	margin: .9rem 0 0 0;
 }
 .intro-info .lead {
