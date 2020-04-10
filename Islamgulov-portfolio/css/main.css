@@ -44,7 +44,6 @@ body {
 	font-family: "lora-regular", serif;
 	font-size: 1.7rem;
 	line-height: 3rem;
-	color: #6e6e6e;
 }
 
 /**
@@ -1474,7 +1473,6 @@ header .logo a {
 .about-content .info-list li strong {
 	font-family: "poppins-bold", sans-serif;
 	color: #313131;
-	text-transform: uppercase;
 	letter-spacing: .2rem;
 	font-size: 1.5rem;
 	line-height: 3rem;
