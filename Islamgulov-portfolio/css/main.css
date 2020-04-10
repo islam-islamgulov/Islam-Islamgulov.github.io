@@ -2340,6 +2340,7 @@ footer .footer-social li a {
 }
 footer .copyright span {
 	display: inline-block;
+	color: #fff;
 }
 footer .copyright span::after {
 	content: "|";
