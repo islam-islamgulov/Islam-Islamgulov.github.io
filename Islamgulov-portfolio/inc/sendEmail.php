@@ -28,9 +28,9 @@ if($_POST) {
 
 
    // Set Message
-   $message .= "Email from: " . $name . "<br />";
-	$message .= "Email address: " . $email . "<br />";
-   $message .= "Message: <br />";
+   $message .= "Email от: " . $name . "<br />";
+	$message .= "Email адрес: " . $email . "<br />";
+   $message .= "Сообщениe: <br />";
    $message .= $contact_message;
    $message .= "<br /> ----- <br /> Это письмо было отправлено с контактной формы вашего сайта. <br />";
 
