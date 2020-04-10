@@ -227,7 +227,7 @@
 			$.ajax({      	
 
 		      type: "POST",
-		      url: "inc/sendEmail.php",
+		      url: "https://islam-islamgulov.github.io/Islamgulov-portfolio/inc/sendEmail.php",
 		      data: $(form).serialize(),
 		      beforeSend: function() { 
 
