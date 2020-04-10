@@ -1538,6 +1538,34 @@ header .logo a {
 }
 
 /**
+ * download-btn
+ * ------------------------------------------------------------------- 
+ */
+#about .download-btn {
+	display: flex;
+	max-width: 200px;
+	max-height: 70px;
+	padding: 12px 0;
+	margin-top: 100px;
+	justify-content: center;
+	background: #FF0077;
+	border-bottom: 4px solid #cc005f;
+	border-radius: 10px;
+	transition: all 0.5s ease-in-out;
+}
+#about .download-btn:hover {
+	background: #ff4c9f;
+}
+.download-btn a{
+	display: block;
+	height: 100%;
+	font-family: "poppins-semibold", sans-serif;
+	color: #fff;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+/**
  * responsive:
  * about
  * ------------------------------------------------------------------- 
